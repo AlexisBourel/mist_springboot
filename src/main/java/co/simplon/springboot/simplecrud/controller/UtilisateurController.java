@@ -55,13 +55,14 @@ public class UtilisateurController {
 			return ResponseEntity.notFound().build();
 		
 		// Update the mandatory attributes
-		utilisateurToUpdate.setPrenom(utilisateur.getPrenom());
-		utilisateurToUpdate.setNom(utilisateur.getNom());
+//		utilisateurToUpdate.setPrenom(utilisateur.getPrenom());
+//		utilisateurToUpdate.setNom(utilisateur.getNom());
+		utilisateurToUpdate.setProfil(utilisateur.getProfil());
 		
 		// Update all other not null attributes
 		
-		if(utilisateur.getEmail() != null)
-			utilisateurToUpdate.setEmail(utilisateur.getEmail());
+//		if(utilisateur.getEmail() != null)
+//			utilisateurToUpdate.setEmail(utilisateur.getEmail());
 		
 		Utilisateur updatedutilisateur = repository.save(utilisateurToUpdate);
 		return ResponseEntity.ok(updatedutilisateur);
