@@ -18,8 +18,6 @@ import org.hibernate.validator.constraints.NotBlank;
 @Table(name = "utilisateur")
 public class Utilisateur implements Serializable{
 	
-
-
 	/**
 	 * 
 	 */
@@ -94,8 +92,6 @@ public class Utilisateur implements Serializable{
 		this.profil = profil;
 	}
 
-	
-	
-	
+		
 	
 }

@@ -3,7 +3,7 @@ Implementation-Title: java-springboot-simplecrud
 Implementation-Version: 0.0.1-SNAPSHOT
 Built-By: Utilisateur
 Implementation-Vendor-Id: co.simplon.example
-Build-Jdk: 1.8.0_161
+Build-Jdk: 1.8.0_151
 Implementation-URL: http://projects.spring.io/spring-boot/java-springb
  oot-simplecrud/
 Created-By: Maven Integration for Eclipse
