@@ -12,11 +12,13 @@ import javax.persistence.ManyToOne;
 import javax.persistence.Table;
 
 import org.hibernate.validator.constraints.Email;
-import org.hibernate.validator.constraints.NotBlank;
+
+import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
 
 @Entity
-@Table(name = "utilisateur")
-public class Utilisateur implements Serializable{
+@Table(name = "agent")
+@JsonIgnoreProperties(ignoreUnknown = true)
+public class Agent implements Serializable{
 	
 
 
@@ -29,16 +31,13 @@ public class Utilisateur implements Serializable{
 	@GeneratedValue(strategy = GenerationType.AUTO)
 	private long id;
 	
-	@NotBlank
 	private String nom;
 	
-	@NotBlank
 	private String prenom;
 	
 	@Email
 	private String email;
 	
-	@NotBlank
 	private String motdepasse;
 	
 	@ManyToOne(fetch = FetchType.EAGER)

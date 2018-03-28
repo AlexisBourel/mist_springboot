@@ -1,4 +1,14 @@
-co\simplon\springboot\simplecrud\controller\UserController.class
 co\simplon\springboot\simplecrud\SimpleCrudApplication.class
-co\simplon\springboot\simplecrud\repository\UserRepository.class
+co\simplon\springboot\simplecrud\controller\UtilisateurController.class
+co\simplon\springboot\simplecrud\repository\UtilisateurRepository.class
 co\simplon\springboot\simplecrud\model\Utilisateur.class
+co\simplon\springboot\simplecrud\model\Suspect.class
+co\simplon\springboot\simplecrud\controller\ProfilController.class
+co\simplon\springboot\simplecrud\model\Personne.class
+co\simplon\springboot\simplecrud\service\UtilisateurService.class
+co\simplon\springboot\simplecrud\repository\profilRepository.class
+co\simplon\springboot\simplecrud\model\Condamnation.class
+co\simplon\springboot\simplecrud\model\Document.class
+co\simplon\springboot\simplecrud\model\Profil.class
+co\simplon\springboot\simplecrud\model\Vehicule.class
+co\simplon\springboot\simplecrud\service\UtilisateurServiceImpl.class

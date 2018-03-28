@@ -4,6 +4,6 @@ import org.springframework.data.jpa.repository.JpaRepository;
 
 import co.simplon.springboot.simplecrud.model.Profil;
 
-public interface profilRepository extends JpaRepository<Profil, Integer> {
-
+public interface ProfilRepository extends JpaRepository<Profil, Integer> {
+	
 }
