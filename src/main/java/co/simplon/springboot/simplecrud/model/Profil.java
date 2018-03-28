@@ -31,7 +31,7 @@ public class Profil implements Serializable{
 	
 	@OneToMany(mappedBy="profil")
 	@JsonIgnore
-	private Set<Utilisateur> utilisateurs;
+	private Set<Agent> agents;
 
 	public long getId() {
 		return id;
@@ -49,13 +49,15 @@ public class Profil implements Serializable{
 		this.libelle = libelle;
 	}
 
-	public Set<Utilisateur> getUtilisateurs() {
-		return utilisateurs;
+	public Set<Agent> getAgents() {
+		return agents;
 	}
 
-	public void setUtilisateurs(Set<Utilisateur> utilisateurs) {
-		this.utilisateurs = utilisateurs;
+	public void setAgents(Set<Agent> agents) {
+		this.agents = agents;
 	}
+
+	
 	
 	
 
