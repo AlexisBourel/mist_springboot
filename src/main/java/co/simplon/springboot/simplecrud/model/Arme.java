@@ -10,8 +10,11 @@ import javax.persistence.Id;
 import javax.persistence.Table;
 import javax.validation.constraints.NotNull;
 
+import org.springframework.stereotype.Component;
+
 @Entity
 @Table(name = "arme")
+@Component
 
 public class Arme implements Serializable{
 	

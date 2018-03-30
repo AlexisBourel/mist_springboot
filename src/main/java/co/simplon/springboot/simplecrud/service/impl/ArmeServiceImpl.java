@@ -14,8 +14,7 @@ public class ArmeServiceImpl implements ArmeService{
 
 	@Autowired
 	private ArmeRepository armeRepository;
-	
-	
+		
 	public List<Arme> getAllArmes(){
 		return this.armeRepository.findAll();
 	}
